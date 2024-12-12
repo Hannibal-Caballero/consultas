@@ -1,9 +1,8 @@
-body {
+         body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
+    background-color: #ffffff;
 }
 
 header {
@@ -17,17 +16,57 @@ header h1 {
     margin: 0;
 }
 
-main {
-    padding: 2rem;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-input, button {
-    padding: 10px;
-    font-size: 16px;
-    margin: 10px;
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
 }
 
-.result {
-    margin-top: 20px;
-    font-size: 18px;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.card {
+    background-color: rgb(239, 239, 239);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+    margin: 2.5rem;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.important-info {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
