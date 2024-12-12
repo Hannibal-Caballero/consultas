@@ -1,50 +1,20 @@
-    
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página de plantas</title>
+    <title>Descubre qué planta eres</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Mi Página de plantas</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+        <h1>Descubre qué planta eres</h1>
     </header>
     <main>
-        <section class="cards">
-            <div class="card">
-                <img src="https://cdn.wallapop.com/images/10420/h7/xx/__/c10420p1041265756/i5084395119.jpg?pictureSize=W640" alt="Título de la Tarjeta 1">
-                <h2>Título de la Tarjeta 1</h2>
-                <p>Descripción de la tarjeta 1</p>
-            </div>
-            <div class="card">
-                <img src="https://cdn.wallapop.com/images/10420/h7/xx/__/c10420p1041265756/i5084395119.jpg?pictureSize=W640" alt="Título de la Tarjeta 2">
-                <h2>Título de la Tarjeta 2</h2>
-                <p>Descripción de la tarjeta 2</p>
-            </div>
-            <div class="card">
-                <img src="https://cdn.wallapop.com/images/10420/h7/xx/__/c10420p1041265756/i5084395119.jpg?pictureSize=W640" alt="Título de la Tarjeta 3">
-                <h2>Título de la Tarjeta 3</h2>
-                <p>Descripción de la tarjeta 3</p>
-            </div>
-        </section>
-        <section class="important-info">
-            <h2>Información Importante</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel purus sit amet nisi dignissim tempus eu eu ex.</p>
-        </section>
+        <input type="text" id="nameInput" placeholder="Pon tu nombre aquí">
+        <button onclick="discoverPlant()">Descubrir</button>
+        <div class="result" id="result"></div>
     </main>
-    <footer>
-        <p>&copy; 2023 Mi Página Attractiva. Todos los derechos reservados</p>
-    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
