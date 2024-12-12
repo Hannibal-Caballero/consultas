@@ -1,7 +1,10 @@
 
+const tarjetas = document.querySelectorAll('.cards');
 
-document.addEventListener('DOMContentLoaded', function() {
+const tarjetas = document.querySelectorAll('.card');
 
-    console.log('La página se ha cargado correctamente');
-});
+const header = document.querySelectorAll("header"); 
 
+const inicioBtn = document.getElementById("nav");
+
+const footer = document.getElementsByClassName("footer");
